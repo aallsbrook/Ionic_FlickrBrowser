@@ -11,5 +11,8 @@ angular.module('myFlickrBrowser.controllers', ['ionic'])
                 alert("ERROR");
             });
     }
+
+    $scope.photoList();
+    
  
 });
