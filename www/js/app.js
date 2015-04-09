@@ -17,14 +17,3 @@ angular.module('myFlickrBrowser', ['ionic', 'myFlickrBrowser.controllers'])
     }
   });
 })
-
-.config(function ($stateProvider, $urlRouterProvider) {
-  $stateProvider
-    .state('app', {
-        url: "/app",
-        controller: 'photoController'
-    }
-  )
-  $urlRouterProvider.otherwise('/app');  
-
-})
